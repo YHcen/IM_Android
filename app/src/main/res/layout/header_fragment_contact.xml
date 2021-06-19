@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/contact_header_item_new_chat"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/em_friends_new_chat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:text="添加好友"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_header_item_chat_room_list"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/em_friends_chat_room"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:text="好友邀请"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contact_header_item_group_list"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/em_friends_group_chat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:text="群聊"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
